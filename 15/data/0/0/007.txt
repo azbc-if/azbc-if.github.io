@@ -1,0 +1,10 @@
+symbol=$;gold
+title=a sparrow keeps banging his head
+text=convulgence, a mix of amber and tnt, a smell of spiral
+tags=store
+image=0/0/007/L2470250_small.jpg
+file=007
+date=05-05-18
+subtitle=no rocks that shine like silver free the water from its surface
+haiku=small city/green field day;issa
+sisters=

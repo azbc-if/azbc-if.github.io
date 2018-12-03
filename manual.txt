@@ -1,0 +1,12 @@
+To add a new post:
+
+change name of subdirectory (containing main.html) into number of new post;
+change subdir-name in redirect-url in ./index.html into new subdir-name;
+Add a new file into directory ./.../data/.../.../;
+Add images (..._small.txt; ..._medium.txt) into directory ./.../.../.../ .
+
+
+
+To change front image:
+
+change "var image" in "./config/conf.js" into post number belonging to disired image

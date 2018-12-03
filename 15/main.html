@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <title>main js</title>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+    var xurl = window.location.href;
+    if ( xurl.indexOf('?') === -1 ) {
+        window.document.write("<meta http-equiv=\"refresh\" content=\"0 url=");
+        window.document.write( xurl + "?file=*&range=0\">");
+    }
+</script>
+
+    <link rel="icon" type="image/png" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./responsive.css">
+
+    <script type="text/javascript" src="./lib/query.js"></script>
+    <script type="text/javascript" src="./config/conf.js"></script>
+    <script type="text/javascript" src="./lib/number_of_files.js"></script>
+    <script type="text/javascript" src="js/data_variables.js"></script>
+    <script type="text/javascript" src="js/data_group.js"></script>
+    <script type="text/javascript" src="js/read_file.js"></script>
+    <script type="text/javascript" src="js/route.js"></script>
+    <script type="text/javascript" src="js/list_single.js"></script>
+    <script type="text/javascript" src="js/list_group.js"></script>
+
+    <script type="text/javascript" src="js/content_post_all/post_all_symbol.js"></script>
+    <script type="text/javascript" src="js/content_post_all/post_all_title.js"></script>
+    <script type="text/javascript" src="js/content_post_all/post_all_text.js"></script>
+    <script type="text/javascript" src="js/content_post_all/post_all_tags.js"></script>
+    <script type="text/javascript" src="js/content_post_all/post_all_image.js"></script>
+    <script type="text/javascript" src="js/content_post_all/post_all_menu.js"></script>
+    <script type="text/javascript" src="js/content_post_all/post_all_status.js"></script>
+
+    <script type="text/javascript" src="js/content_post_single/post_single_image.js"></script>
+    <script type="text/javascript" src="js/content_post_single/post_single_subtitle.js"></script>
+    <script type="text/javascript" src="js/content_post_single/post_single_group.js"></script>
+    <script type="text/javascript" src="js/content_post_single/post_single_link.js"></script>
+    <script type="text/javascript" src="js/content_post_single/post_single_haiku.js"></script>
+    <script type="text/javascript" src="js/content_post_single/post_single_comment.js"></script>
+    <script type="text/javascript" src="js/content_post_single/post_single_menu.js"></script>
+    <script type="text/javascript" src="js/content_post_single/post_single_status.js"></script>
+
+    <script type="text/javascript" src="./lib/xdump.js"></script>
+    <script type="text/javascript" src="./lib/xfill.js"></script>
+    <script type="text/javascript" src="js/table_header.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/status.js"></script>
+    <script type="text/javascript" src="js/list_all.js"></script>
+    <script type="text/javascript" src="js/post_all.js"></script>
+    <script type="text/javascript" src="js/readTextFile.js"></script>
+    <script type="text/javascript" src="js/count_files.js"></script>
+    <script type="text/javascript" src="js/sort_tagged.js"></script>
+    <script type="text/javascript" src="js/list_tagged.js"></script>
+    <script type="text/javascript" src="js/tags_buttons.js"></script>
+    <script type="text/javascript" src="js/post_single.js"></script>
+    <script type="text/javascript" src="js/post_group.js"></script>
+    <script type="text/javascript" src="js/image.js"></script>
+    <script type="text/javascript" src="js/button.js"></script>
+
+  </head>
+  <body>
+
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+    <div class="top_frame"></div>
+    <div class="bottom_frame"></div>
+
+<script type="text/javascript">
+
+    var tags_list = []
+    var xurl = window.location.href;
+
+    xdump("<a class=\"icon\" href=\"");
+    xdump(xurl.split("?")[0]);
+    xdump("\">AZBC</a>");
+
+    if ( window.location.search.includes("file=*") ) {
+        menu();
+        table_header("", "post", "", "image", "link", "state");
+        list_all();
+        button();
+        var files = number_of_files();
+        status(files);
+    } else if ( window.location.search.includes("file=") ) {
+        menu();
+        table_header("image", "", "glossary", "", "catalog", "state");
+        list_single();
+        status("");
+    } else if ( window.location.search.includes("tag=") ) {
+        table_header("", "post", "", "image", "link", "state");
+        list_tagged()
+    } else if ( window.location.search.includes("image=") ) {
+        image();
+        status("");
+    }
+
+    if ( xurl.indexOf('?') != -1 ) {
+        if ( xurl.indexOf('?image') != -1 ) {
+        } else {
+            xdump("<div class=\"bottom_margin\"></div>");
+        }
+    }
+
+</script>
+
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+
+
+  </body>
+</html>

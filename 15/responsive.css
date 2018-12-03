@@ -1,0 +1,122 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+/* RESPONSIVE TABLES //////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.table_header {width: 100%;
+               border-top: 2px solid lightgray; border-bottom: 2px solid lightgray;}
+.th_a { text-align: left; width:  5%; padding-left: 2% }
+.th_b { text-align: left; width: 15%; padding-left: 2% }
+.th_c { text-align: left; width: 30%; padding-left: 1% }
+.th_d { text-align: left; width: 20%; padding-left: 2% }
+.th_e { text-align: left; width: 15%; }
+.th_f { text-align: left; width: 15%; }
+
+.main_table { width: 100%; border-bottom: 2px solid lightgray }
+
+.symbol_all { width:  5%; padding-left: 2%; vertical-align: top; padding-top: 1%;}
+.text_all   { width: 45%; padding-left: 2%; padding-right:11%;}
+.image_all  { width: 20%; padding-left: 2%;}
+.menu_all   { width: 15%; padding-left: 1em; background-color: rgb(245,245,245);}
+.status_all { width: 15%; padding-left: 5%; background-color: rgb(245,245,245); white-space: nowrap}
+
+
+.table_single { width: 100%; }
+
+.image_single  { width: 20%; padding-left: 2%; vertical-align: top; 
+                 padding-bottom: 1em; padding-top: 1em;}
+.text_single   { width: 50%; padding-left: 2%; padding-right:11%; 
+                 vertical-align: bottom; padding-bottom: 1em;}
+.menu_single   { width: 15%; padding-left: 1em; background-color: rgb(245,245,245); 
+                 vertical-align: bottom; padding-bottom: 1em; padding-right: 1em;}
+.status_single { width: 15%; padding-left: 5%; background-color: rgb(245,245,245); 
+                 white-space: nowrap; vertical-align: bottom; padding-bottom: 1em;}
+
+.single_link { margin-left: 22%; padding-bottom: 1em;}
+
+@media all and (max-width: 800px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+       display: block;
+  }
+
+  th { display: none; }
+
+  .symbol_all { width: 100%; padding-left: 10%; padding-top: 5%;}
+  .text_all   { width: 100%; text-align: center; padding-top: 5%; padding-right: 0%; }
+  .image_all  { width: 100%; text-align: center;
+                padding-top: 3%; padding-bottom: 5%;}
+  .menu_all   { width: 100%; padding-left: 10%; }
+  .status_all { width: 100%; padding-left: 10%;
+                padding-bottom: 2%; border-bottom: 20px solid white;}
+
+  .image_single  { width: 100%; text-align: center; padding-right: 10%; 
+                   padding-left: 10%; padding-top: 10%; padding-bottom: 5%}
+  .text_single   { width: 100%; padding-right: 0%; padding-left: 10%; 
+                   padding-right: 10%; padding-bottom: 5%;}
+  .menu_single   { width: 100%; padding-left: 10%; padding-top: 1em;}
+  .status_single { width: 100%; padding-left: 10%; 
+                   padding-bottom: 1em; border-bottom: 20px solid white;}
+
+  .single_link { margin-left: 0%; padding-left: 10%; }
+
+
+  .symbol_all, .text_all, .image_all, .menu_all, .status_all, 
+  .image_single, .text_single, .menu_single, .status_single, .single_link {
+                box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+               }
+
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+/* RESPONSIVE SISTER LINKS ////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.sister {}
+
+@media all and (max-width: 800px) {
+
+.sister {padding-top: 1em; padding-bottom: 1em;}
+
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+/* RESPONSIVE LIST-BUTTONS ////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.normal { background-color: rgb(225,236,244);}
+.current { background-color: rgb(150,175,200);} /*rgb(200,211,219); } */
+
+.buttons_align { text-align: left; padding-top: 1em; padding-bottom: 1em;
+                 padding-left: 1em; padding-right: 1em; }
+
+.list-button {
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.7em;
+    display: inline-block;
+    cursor: pointer;
+    margin: 4px
+}
+
+@media all and (max-width: 800px) {
+
+.buttons_align { text-align: center; padding-left: 0; padding-right: 0;}
+
+.list-button {
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.7em;
+    display: inline-block;
+    cursor: pointer;
+    margin: 8xpx
+}
+
+}

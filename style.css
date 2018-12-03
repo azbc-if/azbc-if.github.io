@@ -1,0 +1,49 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+/* HTML, BODY /////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+/*
+html {font-family: Georgia, "Times New Roman",Times, serif;}
+*/
+html { height: 100%; font-size: 100%}
+body { position:absolute; top:0; bottom:0; right:0%; left:0%; margin-top: 10vh;}
+body { width: 100%; margin-left: 0px; margin-right: 0px;}
+
+html {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-kerning: auto;
+      font-size: 24px;
+      font-stretch: normal;
+      font-style: normal;
+      font-variant: normal;
+      font-variant-ligatures: normal;
+      font-weight: normal;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+/* FRAME  /////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.top_frame { position:fixed;
+             bottom: 92%; height:8%; left:0; width:100%;
+             text-align: right;
+             display: block; background-color: black ; color: rgb(40,100,200);
+             font-weight:bold;
+             z-index:499;
+           }
+
+.bottom_frame { position:fixed;
+                bottom: 0%; height: 8%; left: 0; width:100%;
+                display: block; background-color: #d4d8dd ;
+                z-index:499;
+              }
+
+.icon { position: fixed; top:0%; right: 1%; height: 6%; padding-top: 1%; text-align: right;
+        font-weight: bold; background-color: transparent; z-index: 1000;}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+/* LINK ///////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+
+a:link, a:visited {color: #1564b2;}
+a:hover {color: #1e90ff}
+a {text-decoration: none;}

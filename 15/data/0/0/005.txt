@@ -1,0 +1,10 @@
+symbol=$
+title=second day
+text=coral reef -- obscure walled isle -- organic molecules on mars 
+tags=flower
+image=0/0/005/L2460664_small.jpg
+file=005
+date=18-08-18
+subtitle=dried flower in tops --
+haiku=in two days/the city burns/flowers;issa
+sisters=

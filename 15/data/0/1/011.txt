@@ -1,0 +1,13 @@
+symbol=@;coral
+title=red chamber dream
+text=bind of lesser
+tags=cat
+image=0/1/011/0031618390382_IMG_3566_small.jpg
+link=
+file=011
+date=14-11-18
+subtitle=
+haiku=
+group=
+siblings=
+sisters=

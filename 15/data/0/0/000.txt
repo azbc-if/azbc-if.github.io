@@ -1,0 +1,10 @@
+symbol=
+title=no cleaning of corner dust
+text=feeble blend of small, and high the mountain of air 
+tags=building
+image=0/0/000/L2460212_small.jpg
+file=000
+subtitle=here there are books
+haiku=no cleaning/spider/rest;issa
+date=11-03-18
+group=001

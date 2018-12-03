@@ -1,0 +1,11 @@
+symbol=
+title=corona
+text=sunblinds
+tags=building glass
+image=0/0/009/L2470461_small.jpg
+file=009
+date=15-08-18
+subtitle=
+link=[classical](?image=009)
+haiku=
+sisters=
