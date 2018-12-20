@@ -1,0 +1,14 @@
+symbol=<code>o</code>;gold
+title=Dance on boat
+text=Is art politically directive ?
+tags=art
+image=0/1/016/heckel_visser_small.png
+link=[plinth](https://plinth.uk.com/blogs/magazine/art-as-moral-compass)
+file=016
+date=10-12-18
+subtitle=Art as Moral Compass
+comment=
+haiku=
+group=
+siblings=
+sisters=017
