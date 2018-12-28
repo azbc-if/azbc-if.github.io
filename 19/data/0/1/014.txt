@@ -1,5 +1,5 @@
 symbol=@;coral
-title=For mind of heap, a spoon
+title=For mind heap, of a spoon
 text=the sollid wall
 tags=construct building
 image=0/1/014/6nov2018_002a10_small.png
