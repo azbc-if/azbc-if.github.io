@@ -1,0 +1,26 @@
+symbol=\;coral
+title=enterprise culture
+text=on the backslash <b> <span style="color: black">&#92;</span> OPAQUE TRUTH</b>
+tags=theory
+image=0/1/019/mainframe_small.png
+link=[dictionary](https://dictionary.cambridge.org/dictionary/english/enterprise-culture)
+file=019
+date=24-12-18
+subtitle=optimus prime
+comment=<b>enterprise culture</b><br/> \
+to be located in the mind, ... with period dots, ... \
+finalite the source of consign, the co-signal, operated from my hide-out, \
+period with dashes, a cube interval, ... --- ..., flipped :: \
+with a key, ... \
+<i>( and still red ink inside the bottle we drink ! )</i> \
+<br/><br/>(<i> a society in which personal achievement, the earning of money, \
+and the development of private business is encouraged </i>-- \
+<small>dictionary.cambridge.org</small> ) \
+<br/><br/><small><b>... opacit&#233; de nos certitudes.</b> \
+<i> (La domestication de l'art ,p. 24 -- Laurent Cauwet)</i></small>
+haiku=
+group=
+siblings=
+sisters=
+
+https://www.uni-obuda.hu/journal/Belak_Milfelner_35.pdf

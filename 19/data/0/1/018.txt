@@ -7,13 +7,13 @@ link=[la fabrique](http://lafabrique.fr/la-domestication-de-lart/)
 file=018
 date=22-12-18
 subtitle=La Domestication de l'art
-comment=In what is seems, what is reality, not the zero minded. \
+comment=In what it seems, what is reality, not the zero minded. \
 Supposed ultimated blue !!! In the real. What has been written on sauvage. \
 That is, ... Lavanguardia, in the mist... , That is, ... the wild is the rain \
 That needs an umbrella. A tree of choices, not for the blind, as is ..., \
 That means, not for the bohemian, not for the golden youth ? As is it were the same. \
-And so... set keel to breakers ... and read the book.
-haiku=A cat in the window/no one ::/empty lines/hashed haiku--me
+And so... (...)
+haiku=A cat in the window/no one ::/empty lines;hashed haiku--me
 group=
-siblings=
-sisters=015
+siblings=015
+sisters=
