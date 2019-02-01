@@ -1,4 +1,4 @@
-var image = "020";
+var image = "010";
 
 
 
