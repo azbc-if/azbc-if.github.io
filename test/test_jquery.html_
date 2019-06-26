@@ -1,0 +1,27 @@
+<!doctype html> 
+<html> 
+  <head> 
+    <title>test-jquery</title> 
+    <script type="text/javascript" src="./jquery.js"></script> 
+  </head>
+  <body>
+    <p></p>
+    <p></p>
+    <script>
+        $("p").append("Some appended text.");
+    </script>
+<script>
+   var odv = document.createElement("div");
+   $(odv).append("this is a div dov");
+   document.body.appendChild(odv);
+
+$('<a>',{ text: '<Div> text</div>', class: 'className', href: 'only'}).appendTo('body');
+
+var div = $('<div>');
+div.append('<i>hello World</i>');
+div.appendTo('body');
+
+</script>
+
+  </body> 
+</html>

@@ -1,0 +1,14 @@
+title=cable
+text=
+tags=electronics
+date=31-01-2019
+
+sort=
+group=
+siblings=
+sisters=
+
+link=
+
+comment=
+

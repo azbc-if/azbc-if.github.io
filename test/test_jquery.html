@@ -1,0 +1,19 @@
+<!doctype html> 
+<html> 
+  <head> 
+    <title>test-jquery</title> 
+    <script type="text/javascript" src="./jquery.js"></script> 
+  </head>
+  <body>
+    <script>
+
+      $('<a>',{ text: '<div>text</div>', class: 'className', href: 'only'}).appendTo('body');
+
+      var div = $('<div>');
+      div.append('<i>hello World</i>');
+      div.appendTo('body');
+
+    </script>
+
+  </body> 
+</html>

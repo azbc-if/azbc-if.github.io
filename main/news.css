@@ -1,0 +1,38 @@
+.news_text { grid-area: text; }
+.news_kop1 { grid-area: kop1; }
+.news_kop2 { grid-area: kop2; }
+.news_kop3 { grid-area: kop3; }
+
+.news_grid-container {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-areas:
+    'text kop1 kop2 kop3';
+  background-color: rgb(16, 111, 245); /*#1564b2;*/ /*rgb(8,105,255);*/
+  cursor: default;
+}
+
+.news_grid-container > div {
+  color: black;
+  background-color: rgb(225,236,244); /*rgb(240,230,210); /* rgb(200,230,255); /*white;*/
+  text-align: left;
+  padding: 20px 10px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.news_grid-container > a {
+  color: white;
+  background-color: rgb(225,236,244); /*rgb(16, 111, 245); /* #1564b2;*/ /*rgb(8,105,255);*/
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  cursor: -webkit-grab; cursor: grab;
+}
+
+
+.news_kop1:hover,.news_kop2:hover,.news_kop3:hover { 
+                background-color: rgb(97,177,255);/*rgb(150,175,200);*/ 
+                color: white;
+}
+.news_text { background-color: white; }

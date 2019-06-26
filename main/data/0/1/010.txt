@@ -1,0 +1,14 @@
+title=server
+text=
+tags=electronics
+date=27-05-2019
+
+sort=
+group=
+siblings=
+sisters=
+
+link=
+
+comment=
+

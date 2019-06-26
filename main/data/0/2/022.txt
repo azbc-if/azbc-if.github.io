@@ -1,0 +1,14 @@
+title=bird
+text=
+tags=cloud bird animal
+date=26-06-2019
+
+sort=
+group=
+siblings=
+sisters=
+
+link=
+
+comment=
+

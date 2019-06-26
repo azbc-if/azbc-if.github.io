@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+  <head>
+    <title>main</title>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+
+<script>
+    var xurl = window.location.href;
+    if ( xurl.indexOf('?') === -1 ) {
+        window.document.write("<meta http-equiv=\"refresh\" content=\"0 url=");
+        window.document.write( xurl + "?file=*&range=0\">");
+    }
+</script>
+
+    <link rel="icon" type="image/png" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./responsive.css">
+    <link rel="stylesheet" type="text/css" href="./grid.css">
+
+<!-- //// SCRIPT-SOURCE - INIT AND CONFIG  ////////////////////////////////////////// -->
+
+<!-- "./init/" -->
+    <script src="./init/init.js"></script>
+
+<!-- "./config/" -->
+    <script src="./config/conf.js"></script>
+    <script src="./config/symconf.js"></script>
+    <script src="./config/routerc.js"></script>
+    <script src="./config/href.js"></script>
+
+<!-- //// SCRIPT-SOURCE - LIBRARY  ////////////////////////////////////////////////// -->
+
+<!-- "./lib/" -->
+    <script src="./lib/create.js"></script>
+    <script src="./lib/query.js"></script>
+    <script src="./lib/number_of_files.js"></script>
+    <script src="./lib/xfill.js"></script>
+    <script src="./lib/file_path.js"></script>
+    <script src="./lib/img_path.js"></script>
+    <script src="./lib/url_exists.js"></script>
+
+<!-- //// SCRIPT-SOURCE - MODULES /////////////////////////////////////////////////// -->
+
+<!-- "./js/" -->
+    <script src="./js/main.js"></script>
+
+<!-- "./js/controllers/cat/" -->
+    <script src="js/controllers/cat/cat_image_controller.js"></script>
+    <script src="js/controllers/cat/cat_menu_controller.js"></script>
+    <script src="js/controllers/cat/cat_menu_link_controller.js"></script>
+    <script src="js/controllers/cat/cat_menu_sisters_controller.js"></script>
+    <script src="js/controllers/cat/cat_status_controller.js"></script>
+    <script src="js/controllers/cat/cat_glossary_controller.js"></script>
+    <script src="js/controllers/cat/cat_glossary_title_controller.js"></script>
+    <script src="js/controllers/cat/cat_glossary_comment_controller.js"></script>
+    <script src="js/controllers/cat/cat_glossary_self_controller.js"></script>
+    <script src="js/controllers/cat/cat_glossary_other_controller.js"></script>
+
+<!-- "./js/controllers/ls/" -->
+    <script src="js/controllers/ls/ls_symbol_controller.js"></script>
+    <script src="js/controllers/ls/ls_post_controller.js"></script>
+    <script src="js/controllers/ls/ls_post_title_controller.js"></script>
+    <script src="js/controllers/ls/ls_post_text_controller.js"></script>
+    <script src="js/controllers/ls/ls_post_tags_controller.js"></script>
+    <script src="js/controllers/ls/ls_image_controller.js"></script>
+    <script src="js/controllers/ls/ls_menu_controller.js"></script>
+    <script src="js/controllers/ls/ls_status_controller.js"></script>
+
+<!-- "./js/footer/" -->
+    <script src="js/footer/footer.js"></script>
+    <script src="js/footer/options.js"></script>
+
+<!-- "./js/frame/" -->
+    <script src="js/frame/acronym.js"></script>
+    <script src="js/frame/button.js"></script>
+    <script src="js/frame/frame.js"></script>
+    <script src="js/frame/menu.js"></script>
+    <script src="js/frame/status.js"></script>
+    <script src="js/frame/table_header.js"></script>
+    <script src="js/frame/tags_buttons.js"></script>
+
+<!-- "./js/models/" -->
+    <script src="js/models/data_variables.js"></script>
+    <script src="js/models/data_group.js"></script>
+    <script src="js/models/sort_tagged.js"></script>
+    <script src="js/models/sort_top.js"></script>
+    <script src="js/models/sort_footer.js"></script>
+    <script src="js/models/sort_footer_img.js"></script>
+
+<!-- "./js/readers/" -->
+    <script src="./js/readers/news_title.js"></script>
+    <script src="./js/readers/read_others.js"></script>
+    <script src="./js/readers/read_file.js"></script>
+    <script src="./js/readers/read_md.js"></script>
+
+<!-- "./js/router/" -->
+    <script src="./js/router/router.js"></script>
+    <script src="./js/router/list_single.js"></script>
+    <script src="./js/router/list_all.js"></script>
+    <script src="./js/router/list_tagged.js"></script>
+    <script src="./js/router/list_news.js"></script>
+    <script src="./js/router/list_footer_img.js"></script>
+
+<!-- "./js/start/" -->
+    <script src="./js/start/main_all.js"></script>
+    <script src="./js/start/main_image.js"></script>
+    <script src="./js/start/main_page.js"></script>
+    <script src="./js/start/main_post.js"></script>
+    <script src="./js/start/main_tag.js"></script>
+
+<!-- "./js/views/cat/other/" -->
+    <script src="js/views/cat/other/post_group.js"></script>
+    <script src="js/views/cat/other/cat_glossary_other_header_view.js"></script>
+
+<!-- "./js/views/cat/" -->
+    <script src="js/views/cat/cat_glossary_self_view.js"></script>
+    <script src="js/views/cat/cat_glossary_comment_view.js"></script>
+    <script src="js/views/cat/cat_glossary_title_view.js"></script>
+    <script src="js/views/cat/cat_image_view.js"></script>
+    <script src="js/views/cat/cat_link_view.js"></script>
+    <script src="js/views/cat/cat_sisters_view.js"></script>
+    <script src="js/views/cat/cat_status_view.js"></script>
+    <script src="js/views/cat/cat_table_view.js"></script>
+
+<!-- "./js/views/image/" -->
+    <script src="js/views/image/image.js"></script>
+
+<!-- "./js/views/ls/" -->
+    <script src="js/views/ls/ls_table_view.js"></script>
+    <script src="js/views/ls/ls_symbol_view.js"></script>
+    <script src="js/views/ls/ls_title_view.js"></script>
+    <script src="js/views/ls/ls_text_view.js"></script>
+    <script src="js/views/ls/ls_tags_view.js"></script>
+    <script src="js/views/ls/ls_image_view.js"></script>
+    <script src="js/views/ls/ls_menu_view.js"></script>
+    <script src="js/views/ls/ls_status_view.js"></script>
+
+<!-- "./js/views/sort/" -->
+    <script src="js/views/sort/news_banner.js"></script>
+
+<!-- //// END SCRIPT-SOURCE ////////////////////////////////////////////////////////// -->
+
+  </head>
+  <body>
+    <input class="refresh" type="button" value="refresh" 
+      onClick="window.location.reload()" title="refresh page"> 
+<!--    <span class="refresh_banner">
+        to view latest content refresh page (left top button)
+    </span>
+-->
+    <script> main();</script>
+  </body>
+</html>

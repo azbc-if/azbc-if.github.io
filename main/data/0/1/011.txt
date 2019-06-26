@@ -1,0 +1,14 @@
+title=painting
+text=
+tags=art
+date=23-05-2019
+
+sort=
+group=
+siblings=
+sisters=
+
+link=
+
+comment=
+

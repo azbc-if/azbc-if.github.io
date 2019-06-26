@@ -1,0 +1,14 @@
+title=coffeebar
+text=
+tags=street
+date=20-11-2018
+
+sort=
+group=
+siblings=
+sisters=
+
+link=
+
+comment=
+

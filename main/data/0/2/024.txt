@@ -1,0 +1,14 @@
+title=building
+text=
+tags=street
+date=10-01-2019
+
+sort=
+group=
+siblings=
+sisters=
+
+link=
+
+comment=
+

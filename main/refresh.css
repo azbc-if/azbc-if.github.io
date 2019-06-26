@@ -1,0 +1,46 @@
+.refresh {
+  position: fixed; top: 0; left: 0;
+  background-color: transparent; /*#4CAF50; /* Green */
+  border: none;
+  color: #1564b2;
+  cursor: grab;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 32px;
+  text-decoration: none;
+  display: block;
+  font-size: 1em;
+  z-index: 100000;
+}
+
+.refresh:hover {color: #1e90ff}
+
+.refresh_banner {
+     text-align: center;
+     font-size: 0.7em;
+     cursor: default;
+     padding-top: 5px;
+     display: block;
+     color: transparent;
+}
+
+.refresh_banner:hover {
+    color: silver;
+}
+
+/*
+.refresh {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent; /*#4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  z-index: 100000;
+}
+*/

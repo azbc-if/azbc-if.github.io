@@ -1,0 +1,80 @@
+I have an html5/javascript webpage.
+
+index.html
+
+<!doctype html>
+<html>
+    <head>
+        <title>mytitle</title>
+        <script src="my_function_001.js"></script>
+        // ... the other 98 sourcefiles
+        <script src="my_function_100.js"></script>
+    </head>
+    <body>
+        <script>
+            my_function_001();
+            // ... the other 98 functions
+            my_function_100();
+        </script>
+    </body>
+</html>
+
+To keep my html file clean, 
+I want to have this list of script-tags with src-attributes outside my html-file.
+
+I would idealy like to have a html file loading one sourcefile in the head, 
+and one main function in the body:
+
+index.html
+
+<!doctype html>
+<html>
+    <head>
+        <title>mytitle</title>
+        <script src="include_sources.js"></script>
+    </head>
+    <body>
+        <script>
+            main();
+        </script>
+    </body>
+</html>
+
+all the other javascript functions in other files,
+and one javascript file that contains them in a list to include them.
+
+I tried this:
+
+include_sources.js
+
+file = document.createElement("script");
+file.src = "main.js";
+document.head.appendChild(file);
+
+main.js
+
+function main() {
+    line = document.createElement("div");
+    line.innerHTML = "Hello, World";
+    document.body.appendChild(line)
+}
+
+But this doesn't work.
+
+The result in the browser is:
+
+<!doctype html>
+<html>
+    <head>
+        <title>mytitle</title>
+        <script src="include_sources.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <script>main();</script>
+    </body>
+</html>
+
+The safari debugger says: "! Can't find variable: main"
+
+Is it possible to do this somehow ?

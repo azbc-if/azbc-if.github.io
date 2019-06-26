@@ -1,0 +1,12 @@
+- h1
+-- h2
+--- h3 
+''bold``
+'''italic```
+'''''bold + italic`````
+---- hr
+[001][text] link naar 001 + text 
+[img=001] image
++ br
+* list with bullet
+
