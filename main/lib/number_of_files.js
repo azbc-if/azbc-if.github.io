@@ -5,7 +5,7 @@ function number_of_files()
     var dir = 0
 
     while ( value ) {
-        file = "https://azbc-if.github.io/main/data/" + dir;
+        file = "https://azbc-if.github.io/main/data/" + dir + "/index.html";
         value = url_exists(file)
         dir++
     }
@@ -15,7 +15,7 @@ function number_of_files()
     value = true
 
     while ( value ) {
-        file = "https://azbc-if.github.io/main/data/" + dir + "/" + subdir;
+        file = "https://azbc-if.github.io/main/data/" + dir + "/" + subdir + "/index.html";
         value = url_exists(file)
         subdir++
     }
